@@ -1,0 +1,135 @@
+header{
+    background-color: #1F2937;
+    height: 450px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    padding: 20px 120px;
+}
+.topmost{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+.heading {
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav {
+    display: flex;
+    gap: 25px;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-left: auto;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+h1{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+p{
+    color:#E5E7EB;
+    font-size: 18px;
+}
+button{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 6px 16px;
+    border: #1F2937;
+}
+.hero-right{
+    background-color:#6D747D;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    width: 500px;
+    height: 250px;
+}
+.sec-information{
+    background-color: white;
+    height: 350px;
+    padding: 30px 100px;
+    text-align: center;
+
+}
+.info-container{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.info-box{
+    border: 4px solid blue;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    gap: 10px;
+}
+h2{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+.info-container p {
+    color: #1F2937;
+}
+.sec-quote{
+    background-color: #E5E7EB;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+.sec-quote p{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+.sec-quote h2{
+    text-align: right;
+    margin-right: 250px;
+}
+.sec-call {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mini-seccall {
+    background-color: #3882F6;
+    width: 70%;
+    height: 150px;
+    border-radius: 8px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mini-seccall h3{
+    color: white;
+}
+.mini-mini {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mini-mini button{
+    border: 2px solid whitesmoke;
+    padding: 5px 30px;
+    background-color: #3882F6;
+}
+footer{
+    background-color: #1F2937;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
